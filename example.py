@@ -29,18 +29,18 @@
 #             print(false)
 
 
-def perfect(n):
-    sum=0
-    for i in range(1,n):
-        if n%i==0:
-            sum+=i
-    return sum
-s=perfect(496)
-print(s)
-if s==perfect(s):
-    print("perfect number")
-else:
-    print("not prefect")
+# def perfect(n):
+#     sum=0
+#     for i in range(1,n):
+#         if n%i==0:
+#             sum+=i
+#     return sum
+# s=perfect(496)
+# print(s)
+# if s==perfect(s):
+#     print("perfect number")
+# else:
+#     print("not prefect")
 
     
 # m=[]
@@ -72,6 +72,7 @@ else:
 #     else:
 #         print(i," is odd")
 # even_odd(21)
+
 
 # def fizz_buzz(n):
 #  for i in range(1,n+1):
@@ -131,7 +132,6 @@ else:
 # n=12321
 # k=n*10
 # m=k//10
-
 # if n==m:
 #     print("is polindrome")
 # else:
@@ -155,11 +155,11 @@ else:
 #     print(i*"*")
 
 
-# n=4
-# t=n-1
-# for i in range(1,n+1):
-#     print(" "*t, i*" *")
-#     t-=1
+n=4
+t=n-1
+for i in range(1,n+1):
+    print(" "*t, i*" *")
+    t-=1
 
 
 
